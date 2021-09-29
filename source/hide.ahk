@@ -1,3 +1,1 @@
-﻿*<!h::
-WinMinimize, A
-return
+﻿*<!h::WinMinimize, A
