@@ -1,0 +1,6 @@
+Run this command on windows in an elevated command prompt to stop the snip shortcut from
+opening Microsoft Office in your browser.
+
+    REG ADD HKCU\Software\Classes\ms-officeapp\Shell\Open\Command /t REG_SZ /d rundll32
+
+Source: (https://superuser.com/questions/1457073/how-do-i-disable-specific-windows-10-office-keyboard-shortcut-ctrlshiftwinal)
