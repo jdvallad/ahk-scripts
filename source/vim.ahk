@@ -14,7 +14,7 @@
 	Send {Up}
 	return
 
-*!0::
+*!*::
 	Send {Home}
 	return
 
