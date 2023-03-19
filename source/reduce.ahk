@@ -1,1 +1,0 @@
-﻿*<!r::WinMinimize, A
