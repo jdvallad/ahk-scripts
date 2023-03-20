@@ -72,10 +72,11 @@
 	openTerminal(){
 		// Opens terminal as new tab
 		Run, wt
-		Sleep, 300
+		Sleep, 500
 		WinActivate, ahk_exe WindowsTerminal.exe
 		WinShow, ahk_exe WindowsTerminal.exe
 		Sleep, 300
+		WinClose, ahk_class OleDdeWndClass
 		return
 	}
 
