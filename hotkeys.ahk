@@ -7,6 +7,7 @@
 		Run, "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 		WinWait, ahk_exe msedge.exe
 		WinActivate, ahk_exe msedge.exe
+		maximizeTab()
 		Sleep 300
 		return
 	}
@@ -75,6 +76,7 @@
 		Sleep, 500
 		WinActivate, ahk_exe WindowsTerminal.exe
 		WinShow, ahk_exe WindowsTerminal.exe
+		maximizeTab()
 		Sleep, 300
 		WinClose, ahk_class OleDdeWndClass
 		return
